@@ -49,3 +49,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 };
 // clang-format on
+
+// Fix the damn fn lock already
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    set_single_persistent_default_layer(0);
+    return true;
+}

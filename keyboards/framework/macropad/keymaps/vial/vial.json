@@ -25,8 +25,8 @@
         "pin": "GP25"
     },
     "matrix": {
-        "rows": 6,
-        "cols": 4
+        "rows": 4,
+        "cols": 8
     },
     "layouts": {
         "keymap": [
